@@ -1,0 +1,268 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap');
+
+
+body {
+    
+    background-color: #f6faef;
+    color: #0f141e;
+    font-size: 20px;
+    font-weight: bold;
+
+    font-family: 'Roboto', sans-serif;
+    
+    /*font: normal 16px 'Roboto', sans-serif;*/
+}
+
+/* *{
+    padding: 0;
+    margin: 0;
+
+} */
+a {
+    color:black;
+    text-decoration: none;
+
+}
+
+a:hover {
+    text-decoration: underline;
+}
+a:active {
+    color: rgb(142, 252, 228);
+}
+
+a:visited {
+    color:rgb(71, 138, 150)
+}
+
+
+.foto {
+    width: 200px;
+    border-radius: 28px;
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
+}
+
+.info p {
+    color: #353535;
+    margin: 0;
+    font-style: italic;
+    font-weight: bolder;
+    /* text-decoration: underline; */
+    
+    /* text-transform: uppercase;*/
+    /*letter-spacing: 8px;*/
+    /*word-spacing: 16px; */
+    
+}
+
+.info {
+    display: flex;
+    margin-bottom: 20px;
+
+}
+@media (max-width: 700px) {
+    
+    .info {display: block;
+        text-align: center;
+    }
+}
+
+.info-text { 
+    margin-left: 30px;
+    margin-bottom: 15px;
+
+}
+.info-text h4 {
+    margin-bottom: 10px;
+}
+
+    /*Box model*/
+.container {
+    max-width: 800px;
+    margin: 50px;
+    padding-top: 30px;
+}
+
+/* .css {
+    background:#ffe4c4;
+    padding: 15px;
+    margin: 20px;
+    border: 5px solid red;
+    border-bottom-style: dotted;
+    border-top-width:  15px;
+    border-right-color: royalblue; */
+/* } */
+/* .Box-model > div {
+    float: left;
+    background-color: black;
+    height: 200px;
+    border: 4px solid red;
+    width: 25%;
+    -webkit-box-sizing: border-box; */
+
+/* } */
+
+.bg-yellow {
+    background-color: #fff9dc;
+    text-align: center;
+    
+}
+
+.bg-green {
+    background-color: #e5ffe7;
+    width: 100%;
+    text: ;
+}
+
+.bg-red {
+    margin-left: 0%;
+    background-color: #ffe5e5;
+    width: 100%;
+}
+
+
+
+.card{
+    padding: 15px 20px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    background-color: #bfd9ff;
+    width: 100%;
+}
+
+.card  h2 {
+    margin-bottom: 20px;
+
+}
+.bar {
+    width: 340px;
+    height: 480 px;
+    border-radius: 20px;
+}
+
+.list {
+    padding-left: 5px 20px;
+    
+}
+.list li {
+
+color: #000000;
+margin-bottom: 15px;
+border-bottom: 1px;
+}
+
+.table {
+    width: 100%;
+}
+ .table td {
+    padding-bottom: 10px;
+}
+.table td:nth-child(2), 
+.table td:nth-child(3) 
+/* {
+    color:rebeccapurple
+}  */
+/* .table tr:nth-child(even) 
+{background: red;
+
+}
+.table tr:nth-child(odd) 
+{background: rgb(229, 222, 247); */
+
+.soso {
+    list-style: inside;
+    padding: 5px;
+    
+
+}
+.soso li {
+    margin-bottom: 10px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #ccc;
+}
+
+.qwe  h2 {
+    margin-left: 50px;
+    text-align: center;
+}
+.qwe1 label{
+    display: block;
+    font-size: 24px;
+    color: #000000;
+    
+}
+.qwe1 input{
+    width: 100%;
+    box-sizing: border-box;
+    /* border: none; */
+    /* background: none; */
+    border-bottom: 1px solid #ccc;
+    color:black;
+    padding: 7px 0 10px;
+    outline: none;
+    font-family: inherit;
+}
+
+.qwe1 textarea {
+    margin-left: 
+    width: 100%;
+    box-sizing: border-box;
+    /* border: none; */
+    /* background: none; */
+    border-bottom: 1px solid #ccc;
+    color:black;
+    padding: 15px 0 10px;
+    outline: none;
+    font-family: inherit;
+    margin-left: 50px;
+}
+
+.row {
+    display: flex;
+    margin-bottom: 20px ;
+}
+
+.row > .qwe1 {
+   width: 40%;
+   margin-right: 20px;
+   margin-left: 50px;
+}
+
+ .row .qwe:first-child {
+    margin-right: 20px;
+    
+ }
+
+ .qweqwe {
+    margin-left: 50px;
+    color: #111;
+    padding: 15px 20px;
+    font-family: inherit;
+    cursor: pointer;
+}
+
+.qweqwe:hover 
+{ opacity: 0.9;
+}
+
+/* Position */
+
+/* .position {
+    position: relative;
+    border: 4px solid black;
+    margin-top: 40px;
+    padding: 20px;
+    height: 300px;
+    
+
+}
+.box {
+    position: fixed;
+    bottom: 150px;
+    left: 150px;
+    left: 20px;
+    bottom: 150px;
+    width: 50px;
+    height: 50px; 
+    background: lightcoral ;
+} */
