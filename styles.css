@@ -4,7 +4,7 @@
 body {
     
     background-color: #f6faef;
-    color: #fad103;
+    color: #050505;
     font-size: 20px;
     font-weight: bold;
 
@@ -78,7 +78,7 @@ a:visited {
 
     /*Box model*/
 .container {
-    max-width: 800px;
+   
     margin: 50px;
     padding-top: 30px;
 }
@@ -203,7 +203,7 @@ border-bottom: 1px;
 }
 
 .qwe1 textarea {
-    margin-left: 10px; 
+    
     width: 100%;
     box-sizing: border-box;
     /* border: none; */
@@ -213,7 +213,7 @@ border-bottom: 1px;
     padding: 15px 0 10px;
     outline: none;
     font-family: inherit;
-    margin-left: 50px;
+    /* margin-left: 50px; */
 }
 
 .row {
@@ -222,9 +222,9 @@ border-bottom: 1px;
 }
 
 .row > .qwe1 {
-   width: 40%;
+   width: 60%;
    margin-right: 20px;
-   margin-left: 50px;
+   /* margin-left: 50px; */
 }
 
  .row .qwe:first-child {
@@ -233,9 +233,9 @@ border-bottom: 1px;
  }
 
  .qweqwe {
-    margin-left: 50px;
+    /* margin-left: 50px; */
     color: #111;
-    padding: 15px 20px;
+    /* padding: 15px 20px; */
     font-family: inherit;
     cursor: pointer;
 }
