@@ -111,7 +111,6 @@ a:visited {
 .bg-green {
     background-color: #e5ffe7;
     width: 100%;
-    text: ;
 }
 
 .bg-red {
@@ -204,7 +203,7 @@ border-bottom: 1px;
 }
 
 .qwe1 textarea {
-    margin-left: 
+    margin-left: 10px; 
     width: 100%;
     box-sizing: border-box;
     /* border: none; */
